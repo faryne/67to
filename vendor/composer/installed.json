@@ -1165,5 +1165,54 @@
             "testing",
             "xunit"
         ]
+    },
+    {
+        "name": "kenjis/ci-phpunit-test",
+        "version": "v0.11.1",
+        "version_normalized": "0.11.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/kenjis/ci-phpunit-test.git",
+            "reference": "61500cc8fcd8123df302f58d8cb90d0a7d8cb3ae"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/kenjis/ci-phpunit-test/zipball/61500cc8fcd8123df302f58d8cb90d0a7d8cb3ae",
+            "reference": "61500cc8fcd8123df302f58d8cb90d0a7d8cb3ae",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0"
+        },
+        "replace": {
+            "nikic/php-parser": "2.0.0"
+        },
+        "time": "2016-02-22 02:25:31",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Kenji Suzuki",
+                "homepage": "https://github.com/kenjis"
+            }
+        ],
+        "description": "An easier way to use PHPUnit with CodeIgniter 3.0",
+        "homepage": "http://kenjis.github.io/ci-phpunit-test/",
+        "keywords": [
+            "codeigniter",
+            "monkey patch",
+            "phpunit",
+            "test",
+            "unit testing"
+        ]
     }
 ]
