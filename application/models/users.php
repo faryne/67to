@@ -44,6 +44,7 @@ class users extends MY_Model
 	 */
 	public function get_user ($username, array $fields = array())
 	{
+		// $fields =	[];
 		$query 	=	$this->db->select(empty($fields) ? '*' : $fields)
 		 					 ->from(__CLASS__)
 		 					 ->where('username', $username)
@@ -52,6 +53,23 @@ class users extends MY_Model
 		$query->free_result();
 
 		return $row;
+	}
+
+	public function create_user ($username, $userpass, $email, array $options = array())
+	{
+
+	}
+
+	public function update_user ($username, $userpass, $email, array $options = array())
+	{
+
+	}
+
+	public function delete_user ($username)
+
+	private function ($user_id, $key, $value)
+	{
+
 	}
 
 
